@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -21,7 +21,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -41,6 +41,10 @@ button {
 .nav-item-link:hover,
 .nav-item-link:focus {
   color: #404bbf;
+}
+
+.header-addr {
+  font-style: normal;
 }
 
 .addr-link {
@@ -63,9 +67,10 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-btn {
@@ -100,12 +105,17 @@ button {
 .our-team {
   background-color: #f4f4fd;
 }
+.our-team-list {
+  background-color: #ffffff;
+}
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .footer {
